@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    border-radius: 5px solid black;
+    background-color: black;
+}
+h1{
+    font-size: 60px;
+    border: solid 2px rgb(75, 74, 74);
+    color: rgb(214, 137, 43);
+    animation-name: fondoNombre;
+}
+
+.Titu{
+    animation-name: fondoNombre;
+}
+.navegador{
+    border: solid rgb(253, 250, 250) 1px;
+    animation-name: fondoHead;
+}
+
+.navegador:hover{
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,3,3,1) 23%, rgba(255,255,255,1) 100%);
+}
+
+
+.contenedorNav{
+background-color: rgb(255, 255, 255);
+animation-name: fondoHead;
+transition: all 3s ;
+transition-duration: 3s;
+transition-timing-function: ease-in;
+}
+
+.contenedorNav:hover{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(3,3,3,1) 23%, rgba(255,255,255,1) 100%);
+    }
+
+.imagenCabeza:hover{
+    scale: 1.1;
+}
+
+.contenedorMain{
+background-color: bisque;
+}
+
+.contenedorFot{
+background-color: rgb(255, 255, 255);
+}
+small p{
+    color: aliceblue;
+}
+
+a:hover{
+
+    background-color: bisque;
+
+}
+
+@keyframes fondoHead{
+    
+    100%{
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 23%, rgba(255,253,253,1) 78%, rgba(0,0,0,1) 100%);
+
+    }
+    
+
+}
+
+@keyframes fondoNombre{
+    
+    100%{
+        scale: 1.2;
+        
+
+    }
+    
+
+}
+
+.redes:hover{
+    scale: 1.5;
+}
+
+/* pagina 2 */
+
+.tarjetas{
+    height: 400px;
+   
+    background-color: rgb(0, 0, 0);
+}
+
+h2{
+    font-size: 40px;
+    color: bisque;
+}
+
+/* pagina 3 */
+
+.esperas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* pagina4 */
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fondo{
+    background-color: bisque;
+}
+
+/* pagina 5 */
+
+.rutina1{
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    border: 3px solid red;
+}
+
+.rutina1 iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1400px){
+    /* pagina 2*/
+    .targets{
+        margin-left: 80px;
+        padding-left: 70px;
+       
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    
+
+    .rutina2{
+        width: 80%;
+        
+
+    }
+
+}
+
+@media screen and (max-width: 1250px){
+    /* pagina 2*/
+    .tarjetas{
+        height: 400px;
+       
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    /* pagina index */
+    h1{
+        font-size: 45px;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    /* pagina index */
+    h1{
+        font-size: 30px;
+    }
+
+    /* pagina2 */
+
+    .targets{
+        margin-left: 40px;
+        padding-left: 30px;
+       
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+}
+
+@media screen and (max-width: 380px){
+    
+
+    /* pagina2 */
+
+    .targets{
+        margin-left: 15px;
+        padding-left: 10px;
+       
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+}

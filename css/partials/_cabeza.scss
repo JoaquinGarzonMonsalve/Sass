@@ -1,0 +1,60 @@
+
+
+h1{
+    font-size: 60px;
+    border: solid 2px rgb(75, 74, 74);
+    color:$colorh1;
+    animation-name: fondoNombre;
+}
+
+.Titu{
+    animation-name: fondoNombre;
+}
+.navegador{
+    border: solid $blanco 1px;
+    animation-name: fondoHead;
+}
+
+.navegador:hover{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, $negro 0%, $negro 23%, $blanco 100%);
+}
+
+
+.contenedorNav{
+background-color: $blanco;
+animation-name: fondoHead;
+transition: all 3s ;
+transition-duration: 3s;
+transition-timing-function: ease-in;
+}
+
+.contenedorNav:hover{
+    background: $negro;
+    background: linear-gradient(180deg, $negro 0%, $negro 23%, $blanco 100%);
+    }
+
+.imagenCabeza:hover{
+    scale: 1.1;
+}
+@keyframes fondoHead{
+    
+    100%{
+        background: $negro;
+        background: linear-gradient(90deg, $negro 0%, $blanco 23%, $blanco 78%,$negro 100%);
+
+    }
+    
+
+}
+
+@keyframes fondoNombre{
+    
+    100%{
+        scale: 1.2;
+        
+
+    }
+    
+
+}

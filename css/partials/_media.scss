@@ -1,0 +1,67 @@
+@media screen and (max-width: 1400px){
+    /* pagina 2*/
+    .targets{
+        margin-left: 80px;
+        padding-left: 70px;
+       
+        background-color: $negro;
+    }
+
+    
+
+    .rutina2{
+        width: 80%;
+        
+
+    }
+
+}
+
+@media screen and (max-width: 1250px){
+    /* pagina 2*/
+    .tarjetas{
+        height: 400px;
+       
+        background-color: $negro;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    /* pagina index */
+    h1{
+        font-size: 45px;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    /* pagina index */
+    h1{
+        font-size: 30px;
+    }
+
+    /* pagina2 */
+
+    .targets{
+        margin-left: 40px;
+        padding-left: 30px;
+       
+        background-color: $negro;
+    }
+
+}
+
+@media screen and (max-width: 380px){
+    
+
+    /* pagina2 */
+
+    .targets{
+        margin-left: 15px;
+        padding-left: 10px;
+       
+        background-color: $negro;
+    }
+
+}
