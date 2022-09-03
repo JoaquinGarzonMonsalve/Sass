@@ -89,6 +89,23 @@ a:hover {
   scale: 1.5;
 }
 
+.sider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sider li {
+  text-decoration: none;
+  list-style: none;
+}
+.sider li a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  font-size: 20px;
+}
+
 /* pagina 2 */
 .tarjetas {
   height: 400px;
