@@ -25,12 +25,29 @@
         background-color: $negro;
     }
 
+    .galeri{
+        height: 600px;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    
+
+    .galeri{
+        height: 500px;
+    }
+
 }
 
 @media screen and (max-width: 600px){
     /* pagina index */
     h1{
         font-size: 45px;
+    }
+
+    .galeri{
+        height: 400px;
     }
 
 }
@@ -50,6 +67,10 @@
         background-color: $negro;
     }
 
+    .galeri{
+        height: 300px;
+    }
+
 }
 
 @media screen and (max-width: 380px){
@@ -64,4 +85,9 @@
         background-color: $negro;
     }
 
+    .galeri{
+        height: 250px;
+    }
+
 }
+
