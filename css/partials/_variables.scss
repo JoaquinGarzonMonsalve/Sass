@@ -1,5 +1,12 @@
-$colorh1: rgb(214, 137, 43);
+$color1: rgb(214, 137, 43);
 $blanco: rgb(255, 255, 255);
 $color2: bisque;
 $negro: rgb(0, 0, 0);
 $color3:rgb(181, 176, 22);
+
+%bordeOvalo{
+
+    border-radius: 30%;
+    
+    
+}

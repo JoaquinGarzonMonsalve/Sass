@@ -116,6 +116,51 @@
     }
 
  }
+
+ $redess:(
+  Face: blue,
+  Ins: #8b0960,
+  Twi: green,
+  You: rgb(231, 184, 184),
+  Twich: purple,
+  Play: white,
+
+
+ );
+
+ @each $redd, $colorr in $redess {
+
+  .redes#{$redd}{
+    background-color: $colorr;
+  }
+
+
+  
+ }
+
+ $redesss:(
+  Face: 50%  ,
+  Ins: 50% ,
+  Twi: 50% ,
+  You: 50% ,
+  Twich: 50% ,
+  Play: 50% ,
+
+
+ );
+
+ @each $reddd, $colorrr in $redesss {
+
+  .redes#{reddd}{
+    border-radius: $colorrr;
+  }
+}
+
+.anima{
+  @extend %bordeOvalo;
+}
+
+
   
         
     
