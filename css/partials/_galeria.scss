@@ -1,11 +1,11 @@
 /* pagina 3 */
 
-s
+
 
 .esperas{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
+
+    @include flex(center,center);
     
 }
 

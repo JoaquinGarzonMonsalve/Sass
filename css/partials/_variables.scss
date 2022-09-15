@@ -8,5 +8,11 @@ $color3:rgb(181, 176, 22);
 
     border-radius: 30%;
     
+}
+
+@mixin flex ( $justify,$aling  ){
+    display: flex ;
+    justify-content: $justify;
+    align-items: $aling;
     
 }
